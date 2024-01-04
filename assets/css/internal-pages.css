@@ -1,0 +1,98 @@
+@import url('/minha-versão/assets/css/reset.css');
+@import url('/minha-versão/assets/css/global.css');
+@import url('/minha-versão/assets/css/components/_navigator.css');
+@import url('/minha-versão/assets/css/components/_pills.css');
+@import url('/minha-versão/assets/css/components/_link-button.css');
+@import url('/minha-versão/assets/css/components/_gallery.css');
+
+.spider-wrapper {
+  display: flex;
+  height: 100vh;
+  flex-flow: row nowrap;
+}
+
+.spider-wrapper .spider-left-column {
+  width: 100px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  padding-right: 50px;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.spider-wrapper .spider-main-content {
+  height: 100%;
+  width: 100%;
+  padding-left: 130px;
+  position: relative;
+}
+
+.spider-wrapper .main-content__top {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.spider-wrapper .main-content__bottom {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.spider-wrapper .spider-main-content .spider-logo img {
+  margin-top: 50px;
+  margin-left: 0;
+  margin-bottom: 30px;
+}
+
+.spider-wrapper .spider-main-content__top .spider-description {
+  background-color: rgba(0, 0, 0, .7);
+  max-width: 50%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.spider-wrapper .spider-main-content__top .spider-description .spider-description__text p {
+  color: white;
+  line-height: 170%;
+}
+
+.spider-wrapper .spider-main-content__top .spider-description .pills {
+  margin-bottom: 20px;
+}
+
+.spider-wrapper .spider-main-content .spider-links{
+  padding: 20px;
+  padding-left: 0;
+}
+
+.spider-wrapper .spider-main-content .spider-links ul {
+  display: flex;
+  flex-direction: row;
+}
+
+/* .spider-spiderman-01-01 {
+  background-image: url('/minha-versão/assets/images/spiderman-tobey/movie-01/background.png');
+  background-size: cover;
+} */
+
+.spider-spiderman-01-02 {
+  background-image: url('/minha-versão/assets/images/spiderman-tobey/movie-02/background.png');
+  background-size: cover;
+}
+
+.spider-spiderman-01-03 {
+  background-image: url('/minha-versão/assets/images/spiderman-tobey/movie-03/background.png');
+  background-size: cover;
+}
+
+.spider-wrapper video {
+  position: fixed;
+  width: 100%;
+}

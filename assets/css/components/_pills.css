@@ -1,0 +1,27 @@
+@import url('/minha-versão/assets/css/global.css');
+
+.pills ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.pills ul li {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 5px 15px;
+  margin: 0 10px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  transition: transform .7s ease-in-out;
+}
+
+.pills ul li:first-child {
+  margin-left: 0;
+}
+
+.pills ul li:hover,
+.pills ul li:active {
+  background-color: white;
+  color: var(--primary-color);
+  transform: scale(1.1);
+}
