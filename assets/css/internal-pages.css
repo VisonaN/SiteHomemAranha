@@ -1,9 +1,9 @@
-@import url('/minha-versão/assets/css/reset.css');
-@import url('/minha-versão/assets/css/global.css');
-@import url('/minha-versão/assets/css/components/_navigator.css');
-@import url('/minha-versão/assets/css/components/_pills.css');
-@import url('/minha-versão/assets/css/components/_link-button.css');
-@import url('/minha-versão/assets/css/components/_gallery.css');
+@import url('/assets/css/reset.css');
+@import url('/assets/css/global.css');
+@import url('/assets/css/components/_navigator.css');
+@import url('/assets/css/components/_pills.css');
+@import url('/assets/css/components/_link-button.css');
+@import url('/assets/css/components/_gallery.css');
 
 .spider-wrapper {
   display: flex;
@@ -83,12 +83,12 @@
 } */
 
 .spider-spiderman-01-02 {
-  background-image: url('/minha-versão/assets/images/spiderman-tobey/movie-02/background.png');
+  background-image: url('/assets/images/spiderman-tobey/movie-02/background.png');
   background-size: cover;
 }
 
 .spider-spiderman-01-03 {
-  background-image: url('/minha-versão/assets/images/spiderman-tobey/movie-03/background.png');
+  background-image: url('/assets/images/spiderman-tobey/movie-03/background.png');
   background-size: cover;
 }
 
